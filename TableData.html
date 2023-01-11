@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+   <header>
+    <!-- <h1>Hospital patient records</h1> -->
+    
+     
+     <pre>
+     <p ><h1>           Hospital patient records         </h1></p>
+    </pre>
+
+   </header>
+   <main>
+     
+    <h2 style="color:rgb(0, 132, 255);">My Privia Health since 1983</h2>
+      
+      <article>
+        <pre><b> 
+         Connect with your healthcare team and enjoy
+         experience with myPrivia.</b></pre>
+    <!--  We give more than 4 million patients like you control of their care. -->
+      </article>
+      
+      <pre>
+         <a href="https://www.myprivia.com/"target="_main">
+         <img src="/HelloFolder/Myprivia.jfif" alt="Myprivia" width="200">
+         </a>
+    </pre>
+   
+   
+    <table>
+        <thead>
+        <caption>
+               Doctor's data
+        </caption>
+        <tr>
+            <th colspan="2">  <!--  talbe header -->
+                Information
+            </th>
+            <!-- <th>
+                Roll No
+            </th> -->
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td> <!-- table data -->
+               david
+            </td>
+            <td>
+                1426
+            </td>
+        </tr>
+
+        <tr>
+            <td> 
+               brianna
+            </td>
+            <td>
+                1430
+            </td>
+        </tr>
+
+        <tr>
+            <td> 
+               angelina 
+            </td>
+            <td>
+                1431
+            </td>
+        </tr>
+        </tbody>
+    </table> <br>
+
+<!-- Form in HTML //// Label in HTML -->
+    
+    <form action="action.php">
+        <label for="login">Log in </label><br>
+        <input type="text" placeholder="Username">
+        
+        <input type="password" placeholder="Password"><br>
+
+<!-- radio Buttons(selact butten)  value etribute is for backend-->
+        <h5>Select your section</h5>
+        <label for="101">
+        <input type="radio" value="class I" name="class" id="101">Department I 
+       
+        <label for="102">
+        <input type="radio" value="class II"name="class" id="102">Department II
+       </label> <br>
+    <!-- </div> -->
+       <!-- <div id="id1"class="group 1"></div><br> -->
+
+
+       <h5>select your Shift</h5>
+       <label for="morning">
+        <input type="checkbox" value="morning" name="time" id="600"> Morning
+       </label>
+       <label for="afternoon">
+        <input type="checkbox" value="afternoon" name="time" id="12"> Afternoon
+       </label>
+       <label for="evening">
+        <input type="checkbox" value="evening" name="time" id="500"> Evening
+       </label>
+       <label for="night">
+        <input type="checkbox" value="night" name="location" id="121"> Night
+       </label><br>
+ 
+       <!-- select     -->
+        <h5>Select your city</h5>
+        <select name="city">
+            <option value="fairfax">Fairfax</option>
+            <option value="arlington">Arlington</option>
+            <option value="maryland">Maryland</option>
+            <option value="chantilly">Chantilly</option>
+
+        </select><br><br>
+
+
+
+       <textarea name="Rports" id="101" placeholder="submit daily work reports here!" rows="4" ></textarea><br>
+       <input type="submit" value="submit">
+
+
+
+    </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   </main>
+
+
+
+    
+</body>
+</html>
